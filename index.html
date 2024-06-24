@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="eng">
-<!-- Header */ -->
+<!-- Header -->
   <head>
     <meta charset="UTF-8">
     <image class="title-card" src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZpYJ_XuOb_J82NWGFXejncr3ZWnTPzS9CmZE6cx62s0y0qs0_5WBVDGtgRp9EEMuaVIahV6Fmdo99Xr57XdoZyFKBkCSCXP3k=s1600-rw-v1">
@@ -13,7 +13,7 @@
       Thank you for shopping at <a href="https://www.auronia.com/">Auronia™!</a> We would love to hear about your customer experience. Please fill out the survey and you will be entered to receive free shipping on your next purchase!
     </p>
 
-<!-- User Information */ -->
+<!-- User Information -->
     <form id="survey-form">
       <fieldset>
         <label for="name" id="name-label"> Name: 
@@ -22,12 +22,13 @@
         <label for="email" id="email-label"> Email:    <input required id="email" name="email" type="email" placeholder="Enter your email here (i.e. youremail@email.com)">
       </fieldset>
 
-<!-- Data collection */ -->  
+<!-- Number element -->  
       <fieldset>
         <label for="number" id="number-label"> From a scale of 1-10, how satisfied are you with your purchase? 
         </label>
           <input required id="number" name="number" type="number" min="1" max="10" placeholder="Enter a number from 1-10">
 
+<!-- Dropdown element --> 
         <label for="dropdown" id="dropdown-label"> How often do you shop at Auronia™?
           <select required id="dropdown" name="dropdown">
             <option value="">Please select one</option>
@@ -38,6 +39,7 @@
           </select>
         </label>
 
+<!-- Radio element --> 
         <label>What kind of products are you usually shopping for?</label>
         <label for="devices"> 
           <input required checked id="devices" name="best-product" class="inline" type="radio" value="devices"> 
@@ -52,6 +54,7 @@
               Bundles (i.e. Clear skin set, Revitapack, etc.)
         </label>
 
+<!-- Datalist element -->  
         <label for="purpose" class="title-question"> Who are you shopping for?
           <input required id="demographic" name="demographic" list="types-of-people">
           </input>
@@ -63,6 +66,7 @@
           </datalist>
         </label>
 
+<!-- Checkbox element -->  
         <label>How did you hear about us? (select all that apply)</label>
         <label for="friends-family">
           <input id="friends-family" name="friends-family" value="friends-family" type="checkbox" class="inline">Friends/family
@@ -76,6 +80,18 @@
         <label for="other-ads">
           <input id="other-ads" name="other-ads" value="friends-family" type="checkbox" class="inline">Other
         </label>
+
+<!-- Textarea element -->  
+        <label for="suggestions" class="title-question"> We would greatly appreciate your feedback! </label>
+          <input id="suggestions" name="suggestions" type="textarea" placeholder="Leave your comments and suggestions here">
+
+<!-- Terms and conditions -->  
+        <label for="terms-and-conds">
+          <input required id="terms-and-conds" name="terms-and-conds" value="friends-family" type="checkbox" class="inline">By submitting this form, I accept Auronia™ terms and conditions.
+        </label>
+
+<!-- Submit element -->  
+        <input required id="submit-button" name="submit-button" type="submit" value="Submit">
 
       </fieldset>
     </form>
