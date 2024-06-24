@@ -17,11 +17,23 @@ h1 {
   
   label {
     display: block;
-    margin: 0.5rem 0;
+    margin: 0.2em 0;
   }
   
   input, textarea, select {
     margin: 5px 0 15 0;
     width: 100%;
     min-height: 2em;
+  }
+
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 1em;
+    vertical-align: middle;
+  }
+  
+  .title-question {
+    width: unset;
+    margin: 0.5em 0.5em 0 0;
+    vertical-align: middle;
   }

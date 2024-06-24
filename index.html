@@ -38,13 +38,28 @@
           </select>
         </label>
 
-        <label for="purpose"> What kind of products are you usually shopping for?
-          <input required id="purpose" name="desired-products" list="desired-products">
+        <label>What kind of products are you usually shopping for?</label>
+        <label for="devices"> 
+          <input required checked id="devices" name="best-product" class="inline" type="radio" value="devices"> 
+              Skincare devices (i.e. Revitaglow wand, jade gua sha, facemasks, etc.)
+        </label> 
+        <label for="creams"> 
+          <input required id="creams" name="best-product" class="inline" type="radio" value="creams-and-serums"> 
+              Creams and serums (i.e. Vitamin C serum, Hydroxy serum, etc.)
+        </label>
+        <label for="bundles"> 
+          <input required id="bundles" name="best-product" class="inline" type="radio" value="bundles"> 
+              Bundles (i.e. Clear skin set, Revitapack, etc.)
+        </label>
+
+        <label for="purpose" class="title-question"> Who are you shopping for?
+          <input required id="demographic" name="demographic" list="types-of-people">
           </input>
-          <datalist rquired id="desired-products" name="desired-products">
-            <option value="Skincare devices">Revitaglow wand, jade gua sha, facemasks, etc.</option>
-            <option value="Creams and serums">Vitamin C serum, Hydroxy serum, etc.</option>
-            <option value="Bundles">Combination deals </option>
+          <datalist rquired id="types-of-people" name="demographic">
+            <option value="Myself"></option>
+            <option value="Family"></option>
+            <option value="Friends"></option>
+            <option value="Coworkers"></option>
           </datalist>
         </label>
 
