@@ -20,7 +20,7 @@ h1 {
     margin: 0.5rem 0;
   }
   
-  input, textarea {
+  input, textarea, select {
     margin: 5px 0 15 0;
     width: 100%;
     min-height: 2em;

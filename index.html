@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="eng">
+<!-- Header */ -->
   <head>
     <meta charset="UTF-8">
     <image class="title-card" src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZpYJ_XuOb_J82NWGFXejncr3ZWnTPzS9CmZE6cx62s0y0qs0_5WBVDGtgRp9EEMuaVIahV6Fmdo99Xr57XdoZyFKBkCSCXP3k=s1600-rw-v1">
@@ -9,7 +10,7 @@
 
   <body>
     <p id="description">
-      Thank you for shopping at Auronia™! We would love to hear about your customer experience. Please fill out the survey and you will be entered to receive free shipping on your next purchase!
+      Thank you for shopping at <a href="https://www.auronia.com/">Auronia™!</a> We would love to hear about your customer experience. Please fill out the survey and you will be entered to receive free shipping on your next purchase!
     </p>
 
 <!-- User Information */ -->
@@ -21,9 +22,31 @@
         <label for="email" id="email-label"> Email:    <input required id="email" name="email" type="email" placeholder="Enter your email here (i.e. youremail@email.com)">
       </fieldset>
 
+<!-- Data collection */ -->  
       <fieldset>
-        <label for="number" id="number-label"> From a scale of 1-10, how satisfied were you with your purchase? 
-          <input required id="number" type="number" min="1" max="10" placeholder="Enter a number from 1-10">
+        <label for="number" id="number-label"> From a scale of 1-10, how satisfied are you with your purchase? 
+        </label>
+          <input required id="number" name="number" type="number" min="1" max="10" placeholder="Enter a number from 1-10">
+
+        <label for="dropdown" id="dropdown-label"> How often do you shop at Auronia™?
+          <select required id="dropdown" name="dropdown">
+            <option value="">Please select one</option>
+            <option value="new">This is my first time</option>
+            <option value="uncommon">A few times a year</option>
+            <option value="casual">Every month or so</option>
+            <option value="regular">Regularly</option>
+          </select>
+        </label>
+
+        <label for="purpose"> What kind of products are you usually shopping for?
+          <input required id="purpose" name="desired-products" list="desired-products">
+          </input>
+          <datalist rquired id="desired-products" name="desired-products">
+            <option value="Skincare devices">Revitaglow wand, jade gua sha, facemasks, etc.</option>
+            <option value="Creams and serums">Vitamin C serum, Hydroxy serum, etc.</option>
+            <option value="Bundles">Combination deals </option>
+          </datalist>
+        </label>
 
 
       </fieldset>
