@@ -8,30 +8,45 @@ fieldset {
   min-width: 30em;
   max-width: 55vw;
   margin: 10px auto;
-  padding: 15px;
+  padding: 20px;
 
   font-family: Noto sans, sans-serif;
   font-size: .9em;
   font-weight: 500;
   
-  border: none;
+  border: solid #fffff7;
+  border-radius: 25px;
 
-  background-color: rgba(255, 250, 241, 1);
+  background-color: #fffff7;
+  ;
 }
 
-.bg-strip {
-  background-color: rgba(255, 250, 241, 1);
-  background-size: 100% 100%;
+.title-card {
+  display: block;
+  width: 50%;
+  max-width: 30%;
+  margin: 3em auto 0 auto;
 }
-
 
 h1 {
   font-family: Optima, sans-serif;
-  font-size: 2.5vw;
-  color: #f5f6f7;
+  font-size: 1.3vw;
+  color: #ffffff;
 
   text-align: center;
-  padding: 0 0 0 0;
+  padding: 0 0 2em 0;
+}
+
+.p-top {
+  display: block;
+  text-align: center;
+  margin: 1vw auto 1vw auto;
+  max-width: 65vw;
+
+  font-family: Noto sans, sans-serif;
+  color: #0d0d0d;
+  font-size: 2em;
+  font-weight: 900;
 }
 
 p {
@@ -40,16 +55,8 @@ p {
   max-width: 65vw;
 
   font-family: Noto sans, sans-serif;
-  color: #f5f6f7;
+  color: #0d0d0d;
   font-size: .9em;
-  font-weight: 500;
-}
-
-.title-card {
-  display: block;
-  width: 50%;
-  max-width: 45%;
-  margin: 3em auto 0 auto;
 }
 
 label {
