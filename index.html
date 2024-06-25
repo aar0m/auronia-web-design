@@ -2,12 +2,14 @@
 <html lang="eng">
 
 <!-- Header -->
+<div class="header">
   <head>
     <meta charset="UTF-8">
     <image class="title-card" name="title-card" src="https://lh3.googleusercontent.com/drive-viewer/AKGpihZtPyv0vhM0qx2Kb1am6EQ4ogXJ_fj15oYXfpHNWseaTC-9XFpkGsxixTEpZufs1T1n2QC0igNKmI54Re2a4-TXpjLvyeHG51I=s1600-rw-v1">
     <h1 id="title">CUSTOMER FEEDBACK SURVEY</h1>
     <link rel="stylesheet" href="styles.css">
   </head>
+</div>
 
 <fieldset>
   <body>
@@ -18,21 +20,23 @@
       We would love to hear about your customer experience. Please fill out the survey and you will be entered to receive free shipping on your next purchase!
     </p>
 
-<!-- User information -->
+<!-- User information --> <div>
     <form id="survey-form" name="survey-from">
-        <label for="name" id="name-label"> Name: 
+        <label for="name" id="name-label"> Name
         </label>
           <input required id="name" name="name" type="text" placeholder="Enter your name here (i.e. First Last)">
-        <label for="email" id="email-label"> Email: 
+        <label for="email" id="email-label"> Email
         </label>
           <input required id="email" name="email" type="email" placeholder="Enter your email here (i.e. youremail@email.com)">
+</div>
 
-<!-- Number element -->  
+<!-- Number element --> <div> 
         <label for="number" id="number-label"> From a scale of 1-10, how satisfied are you with your purchase? 
         </label>
           <input required id="number" name="number" type="number" min="1" max="10" placeholder="Enter a number from 1-10">
+</div>
 
-<!-- Dropdown element -->  
+<!-- Dropdown element --> <div>
         <label for="dropdown" id="dropdown-label"> How often do you shop at Auronia™?
           <select required id="dropdown" name="dropdown">
             <option value="">Please select one</option>
@@ -42,8 +46,9 @@
             <option value="regular">Regularly</option>
           </select>
         </label>
+</div>
 
-<!-- Radio element -->  
+<!-- Radio element -->  <div>
         <label>What kind of products are you usually shopping for?
         </label>
         <label for="devices"> 
@@ -60,8 +65,9 @@
           <input required id="bundles" name="best-product" class="inline" type="radio" value="bundles"> 
               Bundles (i.e. Clear skin set, Revitapack, etc.)
         </label>
+</div>
 
-<!-- Datalist element -->  
+<!-- Datalist element --> <div>
         <label for="purpose" class="title-question"> Who are you shopping for?
           <input required id="demographic" name="demographic" list="types-of-people" placeholder="i.e. myself, family, friends, etc.">
           </input>
@@ -72,8 +78,9 @@
             <option value="Coworkers"></option>
           </datalist>
         </label>
+</div>
 
-<!-- Checkbox element -->  
+<!-- Checkbox element --> <div>
         <label>How did you hear about us? (select all that apply)</label>
         <label for="friends-family">
           <input id="friends-family" name="friends-family" value="friends-family" type="checkbox" class="inline">Friends/family
@@ -87,20 +94,22 @@
         <label for="other-ads">
           <input id="other-ads" name="other-ads" value="friends-family" type="checkbox" class="inline">Other
         </label>
+</div>
 
-<!-- Textarea element -->  
+<!-- Textarea element --> <div>
         <label for="textarea" class="title-question"> We would greatly appreciate your feedback! </label>
           <textarea id="textarea" name="suggestions" type="textarea" placeholder="Leave your comments and suggestions here"></textarea>
-
-<!-- Terms and conditions -->  
+</div>
+        
+<!-- Terms and conditions --> <div> 
         <label for="terms-and-conds">
           <input required id="terms-and-conds" name="terms-and-conds" value="friends-family" type="checkbox" class="inline">By submitting this form, I accept Auronia™ terms and conditions.
         </label>
+<div>
 
-<!-- Submit element -->  
+<!-- Submit element -->
         <input required id="submit" name="submit-button" type="submit" value="Submit">
-        
-        </div>
+
       </fieldset>
     </form>
   </body>

@@ -1,31 +1,40 @@
 body {
-  background-color: #14b89d;
+  background-color: rgba(18, 163, 139, 0.2);
   margin: 0;
   padding: 0;
 }
 
+.header {
+  background-color: #12a38b;
+  padding-top: 1%;
+}
+
+div {
+  padding: 0 10% 0 10%;
+}
+
 fieldset {
   min-width: 30em;
-  max-width: 55vw;
-  margin: 10px auto;
-  padding: 20px;
+  max-width: 45vw;
+  margin: 10px auto 0 auto;
+  padding: 20px 2vw auto 2vw;
 
   font-family: Noto sans, sans-serif;
-  font-size: .9em;
-  font-weight: 500;
+  font-size: 1.2em;
   
-  border: solid #fffff7;
+  border: solid #ffffff;
   border-radius: 25px;
 
-  background-color: #fffff7;
+  background-color: #ffffff;
   ;
 }
 
 .title-card {
   display: block;
   width: 50%;
-  max-width: 30%;
-  margin: 3em auto 0 auto;
+  max-width: 35%;
+  margin: 4em auto 0 auto;
+  background: #12a38b;
 }
 
 h1 {
@@ -40,40 +49,48 @@ h1 {
 .p-top {
   display: block;
   text-align: center;
-  margin: 1vw auto 1vw auto;
+  margin: 2vw;
   max-width: 65vw;
 
-  font-family: Noto sans, sans-serif;
+  font-family: Didot, sans-serif;
   color: #0d0d0d;
   font-size: 2em;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 p {
   text-align: center;
   margin: 0 auto 3vh;
-  max-width: 65vw;
+  max-width: 35vw;
 
-  font-family: Noto sans, sans-serif;
+  font-family: Noto-sans, sans-serif;
   color: #0d0d0d;
-  font-size: .9em;
+  font-size: 1em;
 }
 
 label {
   display: block;
   margin: 0.2em 0 0.1em;
+
+  font-family: Helvetica, sans-serif;
+  color: #0d0d0d;
+  font-size: 1em;
+  font-weight: Bold;
 }
 
 input, textarea, select {
-  margin: 2px 0 1em 0;
+  margin: 2px auto 3em ;
   width: 100%;
-  min-height: 2em;
+  padding: 100 100 100 100;
+  min-height: 3em;
+  font-size: 1em;
+  text-indent: 10px;
 }
 
 .inline {
   display: inline-block;
   width: unset;
-  margin: 0 0.5em 0 1em;
+  margin: 0 auto 0 auto;
   vertical-align: middle;
 }
 
@@ -82,3 +99,4 @@ input, textarea, select {
   margin: 0.5em 0.5em 0 0;
   vertical-align: middle;
 }
+
