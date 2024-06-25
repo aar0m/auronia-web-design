@@ -16,8 +16,8 @@ div {
 fieldset {
   min-width: 30em;
   max-width: 45vw;
-  margin: 5vw auto 0 auto;
-  padding: 20px 2vw auto 2vw;
+  margin: 8vw auto 8vw auto;
+  padding: 20px 2vw 20px 2vw;
 
   font-family: Noto sans, sans-serif;
   font-size: 1.2em;
@@ -26,6 +26,7 @@ fieldset {
   border-radius: 25px;
 
   background-color: #ffffff;
+  box-shadow: 0 15px 30px #0d0d0d;
   ;
 }
 
@@ -105,6 +106,33 @@ input, textarea, select {
   font-weight: bold;
   margin: 0.5em 0.5em 0 0;
   vertical-align: middle;
+}
+
+a:link {
+  text-decoration: none;
+  color:#0d0d0d;
+}
+
+a:hover {
+color:#12a38b;
+}
+
+a:visited {
+text-decoration: none;
+color:#12a38b;
+}
+
+a:active {
+  text-decoration: none;
+  color:#12a38b;
+}
+
+input[name="submit-button"] {
+background-color: #12a38b;
+color:#ffffff;
+border: solid #12a38b;
+border-radius: 5px;;
+box-shadow: none;
 }
 
 
