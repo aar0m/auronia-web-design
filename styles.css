@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(18, 163, 139, 0.2);
+  background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihYUBmm-d-CS-AqQAaLGJsfj__z0Vw8Q1HAB6NjXS_woB5Tn6O4mPu4gvNgvzaVUmBIkTfDfAKnecFUsAGJHtBibGDF63Wq7iKE=s1600-rw-v1");
   margin: 0;
   padding: 0;
 }
@@ -41,9 +41,10 @@ h1 {
   font-family: Optima, sans-serif;
   font-size: 1.3vw;
   color: #ffffff;
+  background-color:radial-gradient(#12a38b, #18d7ba);
 
   text-align: center;
-  padding: 0 0 2em 0;
+  padding: 0 0 5% 0;
 }
 
 .p-top {
@@ -75,7 +76,6 @@ label {
   font-family: Helvetica, sans-serif;
   color: #0d0d0d;
   font-size: 1em;
-  font-weight: Bold;
 }
 
 input, textarea, select {
@@ -95,8 +95,16 @@ input, textarea, select {
 }
 
 .title-question {
-  width: unset;
+  font-weight: bold;
   margin: 0.5em 0.5em 0 0;
   vertical-align: middle;
+}
+
+.title-question[for="purpose"] {
+  padding-top: 5%;
+}
+
+#options {
+  font-weight: none;
 }
 
