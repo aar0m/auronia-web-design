@@ -1,7 +1,12 @@
-# survey-form
-### Website is hosted at: https://aar0m.github.io/survey-form/
-First HTML/CSS project to create a website that collects user data but primarily to HTML/CSS. This project will fulfill the checklist below (pulled from freeCodeCamp) and additional features.
+# Auronia Web Design
+## Website is hosted at: https://aar0m.github.io/survey-form/
+This website is akin to a mockup for a hypothetical business, Auronia. 
+* It will be constituted of multiple pages utilizing HTML5 and CSS respectively
+* Each page directly corresponds to a 'Certification Project' assigned by freeCodeCamp.
+NOTE: This personal project applies graphic design skills and lessons learned from freeCodeCamp(https://www.freecodecamp.org/learn).
 
+### Survey Form Page
+First HTML/CSS project to create a website that collects user data but primarily to HTML/CSS. This project will fulfill the checklist below (pulled from freeCodeCamp) and additional features.
 * ~~You should have a page title in an h1 element with an id of title~~
 * ~~You should have a short explanation in a p element with an id of description~~
 * ~~You should have a form element with an id of survey-form~~
