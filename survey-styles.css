@@ -1,0 +1,139 @@
+body {
+  background-image: url("https://lh3.googleusercontent.com/drive-viewer/AKGpihYUBmm-d-CS-AqQAaLGJsfj__z0Vw8Q1HAB6NjXS_woB5Tn6O4mPu4gvNgvzaVUmBIkTfDfAKnecFUsAGJHtBibGDF63Wq7iKE=s1600-rw-v1");
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #12a38b;
+  padding-top: 1%;
+}
+
+div {
+  padding: 0 10% 0 10%;
+}
+
+fieldset {
+  min-width: 30em;
+  max-width: 45vw;
+  margin: 8vw auto 8vw auto;
+  padding: 20px 2vw 20px 2vw;
+
+  font-family: Noto sans, sans-serif;
+  font-size: 1.2em;
+  
+  border: solid #ffffff;
+  border-radius: 25px;
+
+  background-color: #ffffff;
+  box-shadow: 0 15px 30px #0d0d0d;
+  ;
+}
+
+.title-card {
+  display: block;
+  width: 50%;
+  max-width: 35%;
+  margin: 4em auto 0 auto;
+  background: #12a38b;
+}
+
+h1 {
+  font-family: Optima, sans-serif;
+  font-size: 1.3vw;
+  color: #ffffff;
+  background-color:radial-gradient(#12a38b, #18d7ba);
+
+  text-align: center;
+  padding: 0 0 5% 0;
+}
+
+.p-top {
+  display: block;
+  text-align: center;
+  margin: 2vw;
+  min-width: 15em;
+  max-width: 65vw;
+
+  font-family: Helvetica, sans-serif;
+  color: #0d0d0d;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  margin: 0 auto 3vh;
+  min-width: 15em;
+  max-width: 35vw;
+
+  font-family: Noto-sans, sans-serif;
+  color: #0d0d0d;
+  font-size: 1em;
+}
+
+label {
+  display: block;
+  margin: 0.2em 0 -20px;
+  min-width: 3em;
+
+  font-family: Helvetica, sans-serif;
+  color: #0d0d0d;
+  font-size: 1em;
+}
+
+label:last-of-type {
+  margin: 0.2em 0 20px;
+}
+
+input, textarea, select {
+  margin: 2px auto 3em ;
+  width: 100%;
+  padding: 100 100 100 100;
+  min-height: 3em;
+  font-size: 1em;
+  text-indent: 10px;
+}
+
+.inline {
+  display: inline-block;
+  width: unset;
+  margin: 0 auto 0 auto;
+  vertical-align: middle;
+}
+
+.title-question {
+  font-weight: bold;
+  margin: 0.5em 0.5em 0 0;
+  vertical-align: middle;
+}
+
+a:link {
+  text-decoration: none;
+  color:#0d0d0d;
+}
+
+a:hover {
+color:#12a38b;
+}
+
+a:visited {
+text-decoration: none;
+color:#12a38b;
+}
+
+a:active {
+  text-decoration: none;
+  color:#12a38b;
+}
+
+input[name="submit-button"] {
+background-color: #12a38b;
+color:#ffffff;
+border: solid #12a38b;
+border-radius: 5px;;
+box-shadow: none;
+}
+
+
+
