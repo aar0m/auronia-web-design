@@ -16,7 +16,7 @@ div {
 fieldset {
   min-width: 30em;
   max-width: 45vw;
-  margin: 10px auto 0 auto;
+  margin: 5vw auto 0 auto;
   padding: 20px 2vw auto 2vw;
 
   font-family: Noto sans, sans-serif;
@@ -51,9 +51,10 @@ h1 {
   display: block;
   text-align: center;
   margin: 2vw;
+  min-width: 15em;
   max-width: 65vw;
 
-  font-family: Didot, sans-serif;
+  font-family: Helvetica, sans-serif;
   color: #0d0d0d;
   font-size: 2em;
   font-weight: bold;
@@ -62,6 +63,7 @@ h1 {
 p {
   text-align: center;
   margin: 0 auto 3vh;
+  min-width: 15em;
   max-width: 35vw;
 
   font-family: Noto-sans, sans-serif;
@@ -71,11 +73,16 @@ p {
 
 label {
   display: block;
-  margin: 0.2em 0 0.1em;
+  margin: 0.2em 0 -20px;
+  min-width: 3em;
 
   font-family: Helvetica, sans-serif;
   color: #0d0d0d;
   font-size: 1em;
+}
+
+label:last-of-type {
+  margin: 0.2em 0 20px;
 }
 
 input, textarea, select {
@@ -100,11 +107,5 @@ input, textarea, select {
   vertical-align: middle;
 }
 
-.title-question[for="purpose"] {
-  padding-top: 5%;
-}
 
-#options {
-  font-weight: none;
-}
 
