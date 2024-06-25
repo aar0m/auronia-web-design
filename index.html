@@ -22,22 +22,22 @@
 
 <!-- User information --> <div>
     <form id="survey-form" name="survey-from">
-        <label for="name" id="name-label"> Name
+        <label for="name" id="name-label" class="title-question"> Name
         </label>
           <input required id="name" name="name" type="text" placeholder="Enter your name here (i.e. First Last)">
-        <label for="email" id="email-label"> Email
+        <label for="email" id="email-label" class="title-question"> Email
         </label>
           <input required id="email" name="email" type="email" placeholder="Enter your email here (i.e. youremail@email.com)">
 </div>
 
 <!-- Number element --> <div> 
-        <label for="number" id="number-label"> From a scale of 1-10, how satisfied are you with your purchase? 
+        <label for="number" id="number-label" class="title-question"> From a scale of 1-10, how satisfied are you with your purchase? 
         </label>
           <input required id="number" name="number" type="number" min="1" max="10" placeholder="Enter a number from 1-10">
 </div>
 
 <!-- Dropdown element --> <div>
-        <label for="dropdown" id="dropdown-label"> How often do you shop at Auronia™?
+        <label for="dropdown" id="dropdown-label" class="title-question"> How often do you shop at Auronia™?
           <select required id="dropdown" name="dropdown">
             <option value="">Please select one</option>
             <option value="new">This is my first time</option>
@@ -49,7 +49,7 @@
 </div>
 
 <!-- Radio element -->  <div>
-        <label>What kind of products are you usually shopping for?
+        <label class="title-question">What kind of products are you usually shopping for?
         </label>
         <label for="devices"> 
           <input required checked id="devices" name="best-product" class="inline" type="radio" value="devices"> 
@@ -81,19 +81,19 @@
 </div>
 
 <!-- Checkbox element --> <div>
-        <label>How did you hear about us? (select all that apply)</label>
+        <label class="title-question">How did you hear about us? (select all that apply)</label>
         <label for="friends-family">
-          <input id="friends-family" name="friends-family" value="friends-family" type="checkbox" class="inline">Friends/family
+          <input id="friends-family" name="friends-family" value="friends-family" type="checkbox" class="inline"> Friends/family
         </label>
         <label for="socials">
-          <input id="socials" name="socials" value="socials" type="checkbox" class="inline">Social media (Instagram, Twitter, X, etc.)
+          <input id="socials" name="socials" value="socials" type="checkbox" class="inline"> Social media (Instagram, Twitter, X, etc.)
         </label>
         <label for="ads">
-          <input id="ads" name="ads" type="checkbox" value="ads" class="inline">Advertisements (Billboards, banners, etc.)
+          <input id="ads" name="ads" type="checkbox" value="ads" class="inline"> Advertisements (Billboards, banners, etc.)
         </label>
         <label for="other-ads">
-          <input id="other-ads" name="other-ads" value="friends-family" type="checkbox" class="inline">Other
-        </label>
+          <input id="other-ads" name="other-ads" value="friends-family" type="checkbox" class="inline"> Other
+        </p>
 </div>
 
 <!-- Textarea element --> <div>
@@ -102,9 +102,9 @@
 </div>
         
 <!-- Terms and conditions --> <div> 
-        <label for="terms-and-conds">
-          <input required id="terms-and-conds" name="terms-and-conds" value="friends-family" type="checkbox" class="inline">By submitting this form, I accept Auronia™ terms and conditions.
-        </label>
+        <p for="terms-and-conds">
+          <input required id="terms-and-conds" name="terms-and-conds" value="friends-family" type="checkbox" class="inline"> By submitting this form, I accept Auronia™ terms and conditions.
+        </p>
 <div>
 
 <!-- Submit element -->
